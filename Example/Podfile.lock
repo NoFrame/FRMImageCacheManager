@@ -1,0 +1,16 @@
+PODS:
+  - FRMImageCacheManager (0.1.0)
+
+DEPENDENCIES:
+  - FRMImageCacheManager (from `../`)
+
+EXTERNAL SOURCES:
+  FRMImageCacheManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FRMImageCacheManager: 12b68c3d724900be046e48f430b000e4c1d68cd8
+
+PODFILE CHECKSUM: 5421ec60ca23a0cd620b2230fd51ff794caaf324
+
+COCOAPODS: 1.0.1

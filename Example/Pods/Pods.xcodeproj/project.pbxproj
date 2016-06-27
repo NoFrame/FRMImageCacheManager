@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00382E776EE0332D945D7D875D41E9BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		0AEB6226147108F57DD6303E9D97579C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1577EFF9B8B023C0E2310256216074D3 /* Pods-FRMImageCacheManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C1586BF073D7167C69B7F1D3EFD87A2 /* Pods-FRMImageCacheManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38EE3C3920B796AEBD330545ABF0C2F7 /* Pods-FRMImageCacheManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CF7D7B67C82162E6BCC5D4BD17355 /* Pods-FRMImageCacheManager_Tests-dummy.m */; };
+		6BC3BB210326BC6D938D120AC44FECDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9D58F33215BEA06B0AB3DBA5382F66B0 /* FRMImageCacheManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C61186E0E71CAD68DFB0F83A3629D44D /* FRMImageCacheManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE42456C63888D9E36CEA5512FEBE879 /* Pods-FRMImageCacheManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F7B6C7824FBF7DA5AAEFDAD98354DA /* Pods-FRMImageCacheManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA3AAE2912DA108C8ACC9884806F86E8 /* Pods-FRMImageCacheManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D976914CFA5D58DBF4AAE5C4935BF3 /* Pods-FRMImageCacheManager_Example-dummy.m */; };
+		F20379AD1D213C7D0017FE66 /* FRMCacheNames.h in Headers */ = {isa = PBXBuildFile; fileRef = F20379A71D213C7D0017FE66 /* FRMCacheNames.h */; };
+		F20379AE1D213C7D0017FE66 /* FRMImageCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F20379A81D213C7D0017FE66 /* FRMImageCacheManager.h */; };
+		F20379AF1D213C7D0017FE66 /* FRMImageCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F20379A91D213C7D0017FE66 /* FRMImageCacheManager.m */; };
+		F20379B01D213C7D0017FE66 /* FRMImageCacheNamespaceType.h in Headers */ = {isa = PBXBuildFile; fileRef = F20379AA1D213C7D0017FE66 /* FRMImageCacheNamespaceType.h */; };
+		F20379B11D213C7D0017FE66 /* SDImageCache+FRMImageCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F20379AB1D213C7D0017FE66 /* SDImageCache+FRMImageCacheManager.h */; };
+		F20379B21D213C7D0017FE66 /* SDImageCache+FRMImageCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F20379AC1D213C7D0017FE66 /* SDImageCache+FRMImageCacheManager.m */; };
+		FAFA8C9E44E8E1AB3CD44C87201C7497 /* FRMImageCacheManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C2FD24550C39F4390A9E456F23B3C1 /* FRMImageCacheManager-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		892D541FA482E261555CA0023DBD228A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230EBEEE498AF6DB80C6E98ADE6D84B6;
+			remoteInfo = FRMImageCacheManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D09ED1543B9038E0E9F2904535CEB5 /* Pods-FRMImageCacheManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FRMImageCacheManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		09CE425DC1DA629CF410BDEF56A581EC /* Pods_FRMImageCacheManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FRMImageCacheManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2CF7D7B67C82162E6BCC5D4BD17355 /* Pods-FRMImageCacheManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FRMImageCacheManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		2BB877380C9192EEF90EF4948AA4BD6C /* Pods-FRMImageCacheManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FRMImageCacheManager_Example-resources.sh"; sourceTree = "<group>"; };
+		2C1586BF073D7167C69B7F1D3EFD87A2 /* Pods-FRMImageCacheManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FRMImageCacheManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2E5FBFAF5B0140C373D82CE1E368A5BB /* Pods-FRMImageCacheManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FRMImageCacheManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		386A9901BE28C6D0FBEFE87BFEF59034 /* FRMImageCacheManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FRMImageCacheManager.xcconfig; sourceTree = "<group>"; };
+		3A2A26CA3864AA773D2D7EA006FF9F7F /* Pods-FRMImageCacheManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FRMImageCacheManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		42A56079A081E939E41D719D981D654F /* Pods-FRMImageCacheManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FRMImageCacheManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		488A70DEA0E4ACEA81992FE032C8B482 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E42E1F317163769476CCE8D043DD617 /* Pods-FRMImageCacheManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FRMImageCacheManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5F016AA94C437269FE830ECD1EC2F19E /* Pods_FRMImageCacheManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FRMImageCacheManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6084F0FAAFD991DF51F5CF35701E248D /* Pods-FRMImageCacheManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FRMImageCacheManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		627D17012A077693DD93BAA45C2A9B44 /* Pods-FRMImageCacheManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FRMImageCacheManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		64F7B6C7824FBF7DA5AAEFDAD98354DA /* Pods-FRMImageCacheManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FRMImageCacheManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		675EF575B179FB0E1306F39AFCE4AA57 /* Pods-FRMImageCacheManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FRMImageCacheManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7244ED57DA8CE29FE545FC28F0A029F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB653576AC7E8E4D7CD36179B9E60F9 /* FRMImageCacheManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FRMImageCacheManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AFD85CFFF3C95840E679D9AD6DC610 /* Pods-FRMImageCacheManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FRMImageCacheManager_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99D976914CFA5D58DBF4AAE5C4935BF3 /* Pods-FRMImageCacheManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FRMImageCacheManager_Example-dummy.m"; sourceTree = "<group>"; };
+		9B73F580CC6CDA7A76863E59FDA30AF3 /* Pods-FRMImageCacheManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FRMImageCacheManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A0995648E98D4F9288D94AD520C90F06 /* Pods-FRMImageCacheManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FRMImageCacheManager_Tests.modulemap"; sourceTree = "<group>"; };
+		A0DA985A7CE7B718BD5E0B689D88E4A8 /* Pods-FRMImageCacheManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FRMImageCacheManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B061E918188BBAB0DD7B5B9DD5389E84 /* FRMImageCacheManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FRMImageCacheManager-prefix.pch"; sourceTree = "<group>"; };
+		C533967131D1804D849AD0F1AA1ADB6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61186E0E71CAD68DFB0F83A3629D44D /* FRMImageCacheManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FRMImageCacheManager-umbrella.h"; sourceTree = "<group>"; };
+		C993968B541F7CB67EE20D3FB323FFDA /* Pods-FRMImageCacheManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FRMImageCacheManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F20379A71D213C7D0017FE66 /* FRMCacheNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRMCacheNames.h; sourceTree = "<group>"; };
+		F20379A81D213C7D0017FE66 /* FRMImageCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRMImageCacheManager.h; sourceTree = "<group>"; };
+		F20379A91D213C7D0017FE66 /* FRMImageCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRMImageCacheManager.m; sourceTree = "<group>"; };
+		F20379AA1D213C7D0017FE66 /* FRMImageCacheNamespaceType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRMImageCacheNamespaceType.h; sourceTree = "<group>"; };
+		F20379AB1D213C7D0017FE66 /* SDImageCache+FRMImageCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDImageCache+FRMImageCacheManager.h"; sourceTree = "<group>"; };
+		F20379AC1D213C7D0017FE66 /* SDImageCache+FRMImageCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDImageCache+FRMImageCacheManager.m"; sourceTree = "<group>"; };
+		F4C2FD24550C39F4390A9E456F23B3C1 /* FRMImageCacheManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FRMImageCacheManager-dummy.m"; sourceTree = "<group>"; };
+		FD3468039141578650BDE5726E3D870C /* FRMImageCacheManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FRMImageCacheManager.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F1AC43D661EB21B43C300B02E5FF70A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AEB6226147108F57DD6303E9D97579C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957FD255F19358D9B289D23695F8A142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00382E776EE0332D945D7D875D41E9BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07871111EE893E911422C51EC739FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC3BB210326BC6D938D120AC44FECDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17648FBE8A5FB19089E370B2A9BB33D3 /* Pods-FRMImageCacheManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7244ED57DA8CE29FE545FC28F0A029F4 /* Info.plist */,
+				87AFD85CFFF3C95840E679D9AD6DC610 /* Pods-FRMImageCacheManager_Example.modulemap */,
+				627D17012A077693DD93BAA45C2A9B44 /* Pods-FRMImageCacheManager_Example-acknowledgements.markdown */,
+				42A56079A081E939E41D719D981D654F /* Pods-FRMImageCacheManager_Example-acknowledgements.plist */,
+				99D976914CFA5D58DBF4AAE5C4935BF3 /* Pods-FRMImageCacheManager_Example-dummy.m */,
+				9B73F580CC6CDA7A76863E59FDA30AF3 /* Pods-FRMImageCacheManager_Example-frameworks.sh */,
+				2BB877380C9192EEF90EF4948AA4BD6C /* Pods-FRMImageCacheManager_Example-resources.sh */,
+				64F7B6C7824FBF7DA5AAEFDAD98354DA /* Pods-FRMImageCacheManager_Example-umbrella.h */,
+				5E42E1F317163769476CCE8D043DD617 /* Pods-FRMImageCacheManager_Example.debug.xcconfig */,
+				C993968B541F7CB67EE20D3FB323FFDA /* Pods-FRMImageCacheManager_Example.release.xcconfig */,
+			);
+			name = "Pods-FRMImageCacheManager_Example";
+			path = "Target Support Files/Pods-FRMImageCacheManager_Example";
+			sourceTree = "<group>";
+		};
+		1C93408FDFA45B5F2043A92CD9DC7E26 /* Pods-FRMImageCacheManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C533967131D1804D849AD0F1AA1ADB6C /* Info.plist */,
+				A0995648E98D4F9288D94AD520C90F06 /* Pods-FRMImageCacheManager_Tests.modulemap */,
+				04D09ED1543B9038E0E9F2904535CEB5 /* Pods-FRMImageCacheManager_Tests-acknowledgements.markdown */,
+				2E5FBFAF5B0140C373D82CE1E368A5BB /* Pods-FRMImageCacheManager_Tests-acknowledgements.plist */,
+				1E2CF7D7B67C82162E6BCC5D4BD17355 /* Pods-FRMImageCacheManager_Tests-dummy.m */,
+				A0DA985A7CE7B718BD5E0B689D88E4A8 /* Pods-FRMImageCacheManager_Tests-frameworks.sh */,
+				3A2A26CA3864AA773D2D7EA006FF9F7F /* Pods-FRMImageCacheManager_Tests-resources.sh */,
+				2C1586BF073D7167C69B7F1D3EFD87A2 /* Pods-FRMImageCacheManager_Tests-umbrella.h */,
+				6084F0FAAFD991DF51F5CF35701E248D /* Pods-FRMImageCacheManager_Tests.debug.xcconfig */,
+				675EF575B179FB0E1306F39AFCE4AA57 /* Pods-FRMImageCacheManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-FRMImageCacheManager_Tests";
+			path = "Target Support Files/Pods-FRMImageCacheManager_Tests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		46E843D6AE2E273E6B6D93FDC6F06B0B /* FRMImageCacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				D591F4E8A4B862BBF77105E0066E6B6C /* FRMImageCacheManager */,
+				D63944B8E4E2C874479397EEEC7BCBBC /* Support Files */,
+			);
+			name = FRMImageCacheManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		488DCB14D7FD395E1419E48D8B7AFA91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DB653576AC7E8E4D7CD36179B9E60F9 /* FRMImageCacheManager.framework */,
+				09CE425DC1DA629CF410BDEF56A581EC /* Pods_FRMImageCacheManager_Example.framework */,
+				5F016AA94C437269FE830ECD1EC2F19E /* Pods_FRMImageCacheManager_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FC3ADE228D271B9F423722428D52A9C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17648FBE8A5FB19089E370B2A9BB33D3 /* Pods-FRMImageCacheManager_Example */,
+				1C93408FDFA45B5F2043A92CD9DC7E26 /* Pods-FRMImageCacheManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		78EC0ABA29D25A4DB52B6B10D8DB503D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46E843D6AE2E273E6B6D93FDC6F06B0B /* FRMImageCacheManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				78EC0ABA29D25A4DB52B6B10D8DB503D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				488DCB14D7FD395E1419E48D8B7AFA91 /* Products */,
+				6FC3ADE228D271B9F423722428D52A9C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D591F4E8A4B862BBF77105E0066E6B6C /* FRMImageCacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				E5AF43747CDC222AB396DF2F6A6D62AE /* Classes */,
+			);
+			path = FRMImageCacheManager;
+			sourceTree = "<group>";
+		};
+		D63944B8E4E2C874479397EEEC7BCBBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD3468039141578650BDE5726E3D870C /* FRMImageCacheManager.modulemap */,
+				386A9901BE28C6D0FBEFE87BFEF59034 /* FRMImageCacheManager.xcconfig */,
+				F4C2FD24550C39F4390A9E456F23B3C1 /* FRMImageCacheManager-dummy.m */,
+				B061E918188BBAB0DD7B5B9DD5389E84 /* FRMImageCacheManager-prefix.pch */,
+				C61186E0E71CAD68DFB0F83A3629D44D /* FRMImageCacheManager-umbrella.h */,
+				488A70DEA0E4ACEA81992FE032C8B482 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FRMImageCacheManager";
+			sourceTree = "<group>";
+		};
+		E5AF43747CDC222AB396DF2F6A6D62AE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F20379A71D213C7D0017FE66 /* FRMCacheNames.h */,
+				F20379A81D213C7D0017FE66 /* FRMImageCacheManager.h */,
+				F20379A91D213C7D0017FE66 /* FRMImageCacheManager.m */,
+				F20379AA1D213C7D0017FE66 /* FRMImageCacheNamespaceType.h */,
+				F20379AB1D213C7D0017FE66 /* SDImageCache+FRMImageCacheManager.h */,
+				F20379AC1D213C7D0017FE66 /* SDImageCache+FRMImageCacheManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AF8049876077CFD6A140C966EB850FCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20379AD1D213C7D0017FE66 /* FRMCacheNames.h in Headers */,
+				F20379B01D213C7D0017FE66 /* FRMImageCacheNamespaceType.h in Headers */,
+				F20379AE1D213C7D0017FE66 /* FRMImageCacheManager.h in Headers */,
+				9D58F33215BEA06B0AB3DBA5382F66B0 /* FRMImageCacheManager-umbrella.h in Headers */,
+				F20379B11D213C7D0017FE66 /* SDImageCache+FRMImageCacheManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E979A6CECF4D4182108BD86C2FAB2231 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1577EFF9B8B023C0E2310256216074D3 /* Pods-FRMImageCacheManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A4AC7C7C0AB9A0380712C8846921DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE42456C63888D9E36CEA5512FEBE879 /* Pods-FRMImageCacheManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		230EBEEE498AF6DB80C6E98ADE6D84B6 /* FRMImageCacheManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70444D7E726E3D96E1A2C9CBAA24BCE3 /* Build configuration list for PBXNativeTarget "FRMImageCacheManager" */;
+			buildPhases = (
+				F9C12633D041E043CD4B8874BB238BFA /* Sources */,
+				957FD255F19358D9B289D23695F8A142 /* Frameworks */,
+				AF8049876077CFD6A140C966EB850FCF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRMImageCacheManager;
+			productName = FRMImageCacheManager;
+			productReference = 7DB653576AC7E8E4D7CD36179B9E60F9 /* FRMImageCacheManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68D48586FCE4DD191BA705EC59D42C71 /* Pods-FRMImageCacheManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6134D98A2DAB936B22627056C01FA1B /* Build configuration list for PBXNativeTarget "Pods-FRMImageCacheManager_Example" */;
+			buildPhases = (
+				D13FD22A89EA571F5AB018400EB4826D /* Sources */,
+				7F1AC43D661EB21B43C300B02E5FF70A /* Frameworks */,
+				F8A4AC7C7C0AB9A0380712C8846921DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20DB71AEC3C1412B28D4A2ACA0054C93 /* PBXTargetDependency */,
+			);
+			name = "Pods-FRMImageCacheManager_Example";
+			productName = "Pods-FRMImageCacheManager_Example";
+			productReference = 09CE425DC1DA629CF410BDEF56A581EC /* Pods_FRMImageCacheManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB636D3B69B16701240D5279422EDBEC /* Pods-FRMImageCacheManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8D9B4CFC3C27BCC6C6A494C549AB5B /* Build configuration list for PBXNativeTarget "Pods-FRMImageCacheManager_Tests" */;
+			buildPhases = (
+				27D7F3DFF5A1EBD584E193378776D0A8 /* Sources */,
+				F07871111EE893E911422C51EC739FDC /* Frameworks */,
+				E979A6CECF4D4182108BD86C2FAB2231 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FRMImageCacheManager_Tests";
+			productName = "Pods-FRMImageCacheManager_Tests";
+			productReference = 5F016AA94C437269FE830ECD1EC2F19E /* Pods_FRMImageCacheManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 488DCB14D7FD395E1419E48D8B7AFA91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				230EBEEE498AF6DB80C6E98ADE6D84B6 /* FRMImageCacheManager */,
+				68D48586FCE4DD191BA705EC59D42C71 /* Pods-FRMImageCacheManager_Example */,
+				BB636D3B69B16701240D5279422EDBEC /* Pods-FRMImageCacheManager_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27D7F3DFF5A1EBD584E193378776D0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EE3C3920B796AEBD330545ABF0C2F7 /* Pods-FRMImageCacheManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13FD22A89EA571F5AB018400EB4826D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3AAE2912DA108C8ACC9884806F86E8 /* Pods-FRMImageCacheManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C12633D041E043CD4B8874BB238BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFA8C9E44E8E1AB3CD44C87201C7497 /* FRMImageCacheManager-dummy.m in Sources */,
+				F20379B21D213C7D0017FE66 /* SDImageCache+FRMImageCacheManager.m in Sources */,
+				F20379AF1D213C7D0017FE66 /* FRMImageCacheManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20DB71AEC3C1412B28D4A2ACA0054C93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FRMImageCacheManager;
+			target = 230EBEEE498AF6DB80C6E98ADE6D84B6 /* FRMImageCacheManager */;
+			targetProxy = 892D541FA482E261555CA0023DBD228A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4431CCDD848D818903855527398DC716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 675EF575B179FB0E1306F39AFCE4AA57 /* Pods-FRMImageCacheManager_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FRMImageCacheManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FRMImageCacheManager_Tests/Pods-FRMImageCacheManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FRMImageCacheManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5926C8248AFD6061EE47DF4F43DCFC03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 386A9901BE28C6D0FBEFE87BFEF59034 /* FRMImageCacheManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FRMImageCacheManager/FRMImageCacheManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FRMImageCacheManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FRMImageCacheManager/FRMImageCacheManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FRMImageCacheManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75701C0917DE586B3516D04E6FEB0B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C993968B541F7CB67EE20D3FB323FFDA /* Pods-FRMImageCacheManager_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FRMImageCacheManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FRMImageCacheManager_Example/Pods-FRMImageCacheManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FRMImageCacheManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8451A5872D0C72315B870595660B45ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6084F0FAAFD991DF51F5CF35701E248D /* Pods-FRMImageCacheManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FRMImageCacheManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FRMImageCacheManager_Tests/Pods-FRMImageCacheManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FRMImageCacheManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DD3B364626BD12E1373FEE9D51B15455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E42E1F317163769476CCE8D043DD617 /* Pods-FRMImageCacheManager_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FRMImageCacheManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FRMImageCacheManager_Example/Pods-FRMImageCacheManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FRMImageCacheManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E68257A8AEEB885A1D3AC04FF11C8886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 386A9901BE28C6D0FBEFE87BFEF59034 /* FRMImageCacheManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FRMImageCacheManager/FRMImageCacheManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FRMImageCacheManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FRMImageCacheManager/FRMImageCacheManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FRMImageCacheManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70444D7E726E3D96E1A2C9CBAA24BCE3 /* Build configuration list for PBXNativeTarget "FRMImageCacheManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5926C8248AFD6061EE47DF4F43DCFC03 /* Debug */,
+				E68257A8AEEB885A1D3AC04FF11C8886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8D9B4CFC3C27BCC6C6A494C549AB5B /* Build configuration list for PBXNativeTarget "Pods-FRMImageCacheManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8451A5872D0C72315B870595660B45ED /* Debug */,
+				4431CCDD848D818903855527398DC716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6134D98A2DAB936B22627056C01FA1B /* Build configuration list for PBXNativeTarget "Pods-FRMImageCacheManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3B364626BD12E1373FEE9D51B15455 /* Debug */,
+				75701C0917DE586B3516D04E6FEB0B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

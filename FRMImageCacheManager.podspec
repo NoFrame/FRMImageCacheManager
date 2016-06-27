@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FRMImageCacheManager'
-  s.version          = '0.3'
+  s.version          = '0.3.1'
   s.summary          = 'An image cache manager that uses more than the "default" image cache.'
 
 # This description is used to generate tags and improve search results.

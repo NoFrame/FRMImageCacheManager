@@ -1,5 +1,9 @@
 PODS:
-  - FRMImageCacheManager (0.1.0)
+  - FRMImageCacheManager (0.3):
+    - SDWebImage
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
 
 DEPENDENCIES:
   - FRMImageCacheManager (from `../`)
@@ -9,7 +13,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FRMImageCacheManager: 12b68c3d724900be046e48f430b000e4c1d68cd8
+  FRMImageCacheManager: 847c5a24a97de57024e7190d3c2f759d1e9f4ab7
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
 
 PODFILE CHECKSUM: 5421ec60ca23a0cd620b2230fd51ff794caaf324
 

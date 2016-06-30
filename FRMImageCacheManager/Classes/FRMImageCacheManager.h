@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "FRMImageCacheNamespaceType.h"
-@import SDWebImage;
+@import SDImageCache;
 
 @interface FRMImageCacheManager : NSObject
 

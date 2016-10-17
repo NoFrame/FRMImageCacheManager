@@ -9,6 +9,10 @@
 #ifndef FRMCacheNames_h
 #define FRMCacheNames_h
 
+//do not change these, hardcoded into the SDWebImage fork for app group sharing
+//SDImageCache.m method - (nullable NSString *)makeDiskCachePath:(nonnull NSString*)fullNamespace
+//so far line 184
+
 static NSString *kFarmisCatalogCacheNamespace = @"FarmisCatalogNamespace";
 static NSString *kFarmisAgronomistCacheNamespace = @"FarmisAgronomistNamespace";
 

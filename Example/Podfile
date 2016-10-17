@@ -2,6 +2,8 @@ use_frameworks!
 
 target 'FRMImageCacheManager_Example' do
   pod 'FRMImageCacheManager', :path => '../'
+  
+  pod 'SDWebImage', :git => 'https://github.com/William500/SDWebImage.git', :commit => '27888823cdc3c5f9c32aa03ed0758eb9bdb4ecf9'
 
   target 'FRMImageCacheManager_Tests' do
     inherit! :search_paths

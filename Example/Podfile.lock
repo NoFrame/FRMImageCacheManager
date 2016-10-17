@@ -1,21 +1,30 @@
 PODS:
-  - FRMImageCacheManager (0.3):
-    - SDWebImage
-  - SDWebImage (3.8.1):
-    - SDWebImage/Core (= 3.8.1)
-  - SDWebImage/Core (3.8.1)
+  - FRMImageCacheManager (0.3.4):
+    - SDWebImage (= 4.0.0-beta2-farmis-0.2)
+  - SDWebImage (4.0.0-beta2-farmis-0.2):
+    - SDWebImage/Core (= 4.0.0-beta2-farmis-0.2)
+  - SDWebImage/Core (4.0.0-beta2-farmis-0.2)
 
 DEPENDENCIES:
   - FRMImageCacheManager (from `../`)
+  - SDWebImage (from `https://github.com/William500/SDWebImage.git`, commit `27888823cdc3c5f9c32aa03ed0758eb9bdb4ecf9`)
 
 EXTERNAL SOURCES:
   FRMImageCacheManager:
     :path: ../
+  SDWebImage:
+    :commit: 27888823cdc3c5f9c32aa03ed0758eb9bdb4ecf9
+    :git: https://github.com/William500/SDWebImage.git
+
+CHECKOUT OPTIONS:
+  SDWebImage:
+    :commit: 27888823cdc3c5f9c32aa03ed0758eb9bdb4ecf9
+    :git: https://github.com/William500/SDWebImage.git
 
 SPEC CHECKSUMS:
-  FRMImageCacheManager: 847c5a24a97de57024e7190d3c2f759d1e9f4ab7
-  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  FRMImageCacheManager: fbec92e2d3b2553228eabe01b3c56e0bd71ce8cb
+  SDWebImage: eb30e21255694840b5af952f0f193e0dc73f6129
 
-PODFILE CHECKSUM: 5421ec60ca23a0cd620b2230fd51ff794caaf324
+PODFILE CHECKSUM: d31273cf2c3dd47d625257245844c10df53fda39
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.rc.2

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FRMImageCacheManager'
-  s.version          = '0.3.6'
+  s.version          = '0.3.7'
   s.summary          = 'An image cache manager that uses more than the "default" image cache.'
   s.description      = <<-DESC
 An image cache manager that uses more than the "default" image cache.

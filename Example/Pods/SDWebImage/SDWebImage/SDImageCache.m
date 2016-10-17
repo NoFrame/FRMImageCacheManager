@@ -183,7 +183,7 @@ FOUNDATION_STATIC_INLINE NSUInteger SDCacheCostForImage(UIImage *image) {
 
 - (nullable NSString *)makeDiskCachePath:(nonnull NSString*)fullNamespace {
     if ([fullNamespace isEqualToString:@"FarmisCatalogNamespace"]) {
-        NSString *path = [[[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:CatalogAppGroup] absoluteString];
+        NSString *path = [[[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:CatalogAppGroup] path];
         return path;
     }
     else {

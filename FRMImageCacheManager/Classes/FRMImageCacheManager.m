@@ -52,15 +52,15 @@ typedef void(^FRMImageCacheManagerCompletionBlock)(BOOL success, UIImage *image)
 	dispatch_async(imageCacheQueue, ^{
 		UIImage *image = [_iCache imageFromDiskCacheForKey:[nsUrl absoluteString]];
         if (image == nil) {
-            [_iDownloader downloadImageWithURL:nsUrl options:SDWebImageDownloaderHighPriority progress:^(NSInteger receivedSize, NSInteger expectedSize) {
+            [_iDownloader downloadImageWithURL:nsUrl options:SDWebImageDownloaderHighPriority progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL * _Nullable targetURL) {
                 if (progressBlock) {
                     progressBlock(receivedSize, expectedSize);
                 }
-            } completed:^(UIImage *image, NSData *data, NSError *error, BOOL finished) {
+            } completed:^(UIImage * _Nullable image, NSData * _Nullable data, NSError * _Nullable error, BOOL finished) {
                 if (finished) {
                     if (!error) {
                         if (image) {
-                            [_iCache storeImage:image recalculateFromImage:NO imageData:UIImageJPEGRepresentation(image, 0.6) forKey:[nsUrl absoluteString] toDisk:YES];
+                            [_iCache storeImage:image imageData:UIImageJPEGRepresentation(image, 0.6) forKey:[nsUrl absoluteString] toDisk:YES completion:nil];
                             dispatch_async(dispatch_get_main_queue(), ^{
                                 if (completionBlock) {
                                     completionBlock(YES, image);

@@ -1,6 +1,6 @@
 {
   "name": "FRMImageCacheManager",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "summary": "An image cache manager that uses more than the \"default\" image cache.",
   "description": "An image cache manager that uses more than the \"default\" image cache.\nThis is built on top of the SDWebImage library, for use with multiple image caches.",
   "homepage": "https://github.com/William500/FRMImageCacheManager.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/William500/FRMImageCacheManager.git",
-    "tag": "0.3.4"
+    "tag": "0.3.5"
   },
   "platforms": {
     "ios": "8.1"
@@ -21,7 +21,7 @@
   "source_files": "FRMImageCacheManager/Classes/**/*",
   "dependencies": {
     "SDWebImage": [
-      "= 4.0.0-beta2-farmis-0.2"
+      "= 4.0.0-beta2"
     ]
   }
 }

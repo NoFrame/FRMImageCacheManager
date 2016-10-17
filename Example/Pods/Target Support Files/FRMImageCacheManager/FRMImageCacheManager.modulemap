@@ -1,6 +1,0 @@
-framework module FRMImageCacheManager {
-  umbrella header "FRMImageCacheManager-umbrella.h"
-
-  export *
-  module * { export * }
-}

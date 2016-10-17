@@ -1,5 +1,5 @@
 PODS:
-  - FRMImageCacheManager (0.3.4):
+  - FRMImageCacheManager (0.3.5):
     - SDWebImage (= 4.0.0-beta2-farmis-0.2)
   - SDWebImage (4.0.0-beta2-farmis-0.2):
     - SDWebImage/Core (= 4.0.0-beta2-farmis-0.2)
@@ -22,7 +22,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/William500/SDWebImage.git
 
 SPEC CHECKSUMS:
-  FRMImageCacheManager: fbec92e2d3b2553228eabe01b3c56e0bd71ce8cb
+  FRMImageCacheManager: 1898d7a637d49ae9b145b87b900c4cacff296bb4
   SDWebImage: eb30e21255694840b5af952f0f193e0dc73f6129
 
 PODFILE CHECKSUM: d31273cf2c3dd47d625257245844c10df53fda39

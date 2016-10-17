@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FRMImageCacheManager'
-  s.version          = '0.3.4'
+  s.version          = '0.3.6'
   s.summary          = 'An image cache manager that uses more than the "default" image cache.'
   s.description      = <<-DESC
 An image cache manager that uses more than the "default" image cache.
@@ -15,5 +15,5 @@ This is built on top of the SDWebImage library, for use with multiple image cach
   s.ios.deployment_target = '8.1'
 
   s.source_files = 'FRMImageCacheManager/Classes/**/*'
-  s.dependency 'SDWebImage'
+  s.dependency 'SDWebImage', '= 4.0.0-beta2'
 end

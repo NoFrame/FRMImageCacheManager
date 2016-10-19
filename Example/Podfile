@@ -1,9 +1,10 @@
 use_frameworks!
 
+source 'https://github.com/William500/WLMPrivateSpecs.git'
+source 'https://github.com/Cocoapods/Specs.git'
+
 target 'FRMImageCacheManager_Example' do
   pod 'FRMImageCacheManager', :path => '../'
-  
-  pod 'SDWebImage', :git => 'https://github.com/William500/SDWebImage.git', :commit => '62c83fcfc3584924467c7359fd9c7e8b31156e79'
 
   target 'FRMImageCacheManager_Tests' do
     inherit! :search_paths
